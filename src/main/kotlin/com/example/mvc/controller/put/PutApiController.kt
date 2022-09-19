@@ -72,17 +72,17 @@ class PutApiController {
 //            userList.add(UserRequest().apply{
 //                this.name = "tubi"
 //                this.age = 1
-//                this.address = "상일동"
-//                this.email = "tubipoo@naver.com"
+//                this.address = "에피린동"
+//                this.email = "effirin8@gmail.com"
 //                this.phoneNumber = "no Phone"
 //            }) // userRequest 생성자 없이 바로 apply 패턴으로 넣기
 //
 //            userList.add(UserRequest().apply{
-//                this.name = "yerin"
+//                this.name = "rinrin"
 //                this.age = 10
-//                this.address = "상일동"
+//                this.address = "뚜비동"
 //                this.email = "effirin@naver.com"
-//                this.phoneNumber = "010-5039-0778"
+//                this.phoneNumber = "010-0000-0000"
 //            })
 //
 //            this.user = userList     // 만든 userList를 this(UserResponse)의 userRequest에 할당한다.

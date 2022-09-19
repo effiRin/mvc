@@ -31,7 +31,7 @@ class GetApiController {
         return _name + " " + _age
     }
 
-    @GetMapping("/get-mapping/query-param")     // ?name=yerin&age=18
+    @GetMapping("/get-mapping/query-param")     // ?name=rin&age=18
     fun queryParam(
         @RequestParam name: String,
         @RequestParam(value = "age") _age: Int

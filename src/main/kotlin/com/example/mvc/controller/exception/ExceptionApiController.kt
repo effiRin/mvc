@@ -23,9 +23,10 @@ import javax.validation.Valid
 class ExceptionApiController {
 
     @GetMapping("/hello")
-    fun hello() {
+    fun hello(): String {
         val list = mutableListOf<String>()
-        val temp = list[0]
+//        val temp = list[0]
+        return "hello"
     }
 
     // 다음과 같이 컨트롤러 내부에 Handler가 있으면, ControllerAdvice를 타지 않고 @ExceptionHandler 붙은 것을 탄다.
